@@ -5,7 +5,7 @@ MODS metadata from the Omeka to Islandora migration (winter 2018).
 ## About
 
 ```
-MODS metadata from the Omeka to Islandora migration (winter 2018). See "egy" repository for the initial data for this project.
+MODS metadata from the Omeka to Islandora migration (winter 2018). See ["egy"](https://github.com/UTKcataloging/egy) repository for the initial data for this project.
 
 |-- cleaned_data
     |-- modsxml
