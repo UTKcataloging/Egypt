@@ -16,4 +16,5 @@ MODS metadata from the Omeka to Islandora migration (winter 2018). See ["egy"](h
         |-- splitter.xsl
 |-- original_data 
     |-- egypt.csv
+    |-- egypt.xlsx
 ```
