@@ -20,10 +20,9 @@
 {{if(isBlank(cells["supplied_title"].value),'', '<titleInfo supplied="yes"><title>' + cells['supplied_title'].value + '</title></titleInfo>')}}
 
 
-{{'<originInfo>' + if(isBlank(cells['date'].value), '', '<dateIssued>' + cells['date'].value + '</dateIssued>') + if(isBlank(cells['date2'].value), '', '<dateIssued encoding="edtf">' + cells['date2'].value + '</dateIssued>') +
+{{'<originInfo>' + if(isBlank(cells['date'].value), '', '<dateCreated>' + cells['date'].value + '</dateCreated>') + if(isBlank(cells['date_edtf'].value), '', '<dateCreated encoding="edtf">' + cells['date_edtf'].value + '</dateCreated>') +
 if(isBlank(cells['publisher'].value), '', '<publisher>' + cells['publisher'].value + '</publisher>') + '</originInfo>'}}
-{{if(isBlank(cells['credit_line'].value), '', '<note>' + cells['credit_line'].value + '</note>')}}
-<physicalDescription><extent>{{cells['extent'].value}}</extent><form authority="aat" valueURI="{{cells['form_URI'].value}}">{{cells['form'].value}}</form><internetMediaType>image/jpeg</internetMediaType></physicalDescription>
+{{'<physicalDescription>' + if(isBlank(cells['extent'].value, '', '<extent>' + cells['extent'].value + '</extent>'<form authority="aat" valueURI="{{cells['form_URI'].value}}">{{cells['form'].value}}</form><internetMediaType>image/jpeg</internetMediaType></physicalDescription>
 <relatedItem displayLabel="Project" type="host"><titleInfo><title>Nineteenth and Early Twentieth Century Images of Egypt</title></titleInfo></relatedItem>
 
 {{if(isBlank(cells['creator'].value), '', '<name><namePart>' + cells['creator'].value + '</namePart>' + if(isBlank(cells['creator'].value), '', '<role><roleTerm authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm></role>') + '</name>')}}
@@ -37,6 +36,7 @@ if(isBlank(cells['publisher'].value), '', '<publisher>' + cells['publisher'].val
 <location><physicalLocation valueURI="http://id.loc.gov/authorities/names/no2017033007">Frank H. McClung Museum of Natural History and Culture</physicalLocation>
 <recordInfo><recordContentSource valueURI="http://id.loc.gov/authorities/names/no2017033007">Frank H. McClung Museum of Natural History and Culture</recordContentSource></recordInfo>
 <note displayLabel="Intermediate Provider">University of Tennessee, Knoxville. Libraries</note>
+{{if(isBlank(cells['credit_line'].value), '', '<note>' + cells['credit_line'].value + '</note>')}}
 <accessCondition type="use and reproduction" xlink:href="{{cells['rights_URI'].value}}">{{cells['rights'].value}}</accessCondition>
 </mods>
 ```
