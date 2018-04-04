@@ -14,7 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>egypt</String>
+                                        <String>egyptbypid</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -33,7 +33,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>egypt</String>
+                                    <String>egyptbypid</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -72,10 +72,10 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>modsxml</File>
+                                    <File>output</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>modsxml</String>
+                                    <String>output</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
