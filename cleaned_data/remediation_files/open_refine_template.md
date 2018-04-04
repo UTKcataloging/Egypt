@@ -14,9 +14,10 @@
 ```
 <mods>
 <identifier type="local">{{cells["adminDB"].value}}</identifier>
+<identifier type="pid">{{cells["PID"].value}}</identifier>
 <identifier type="legacy">{{cells["legacy_identifier"].value}}</identifier>
 <identifier type="acquisition">{{cells["acquisition_no"].value}}</identifier>
-<identifier type="acquisition">{{cells["acquisition_no_2"].value}}</identifier>
+{{if(isBlank(cells['acquisition_no_2'].value), '', '<identifier type="acquisition">' + cells['acquisition_no_2'].value + '</identifier>')}}
 {{if(isBlank(cells["title"].value),'', '<titleInfo><title>' + cells['title'].value + '</title></titleInfo>')}}
 {{if(isBlank(cells["supplied_title"].value),'', '<titleInfo supplied="yes"><title>' + cells['supplied_title'].value + '</title></titleInfo>')}}
 <abstract>{{cells['abstract'].value}}</abstract>
@@ -44,7 +45,7 @@ if(isBlank(cells['publisher'].value), '', '<publisher>' + cells['publisher'].val
 <note displayLabel="Intermediate Provider">University of Tennessee, Knoxville. Libraries</note>
 {{if(isBlank(cells['credit_line'].value), '', '<note>' + cells['credit_line'].value + '</note>')}}
 <accessCondition type="use and reproduction" xlink:href="{{cells['rights_URI'].value}}">{{cells['rights'].value}}</accessCondition>
-<accessCondition type="local">{{cells['rights_McClung'].value}}</accessCondition>
+<note displayLabel="Local Rights">{{cells['rights_McClung'].value}}</note>
 </mods>
 ```
 
