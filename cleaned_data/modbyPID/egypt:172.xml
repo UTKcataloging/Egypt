@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <identifier type="local">0123_00050_000172</identifier>
+   <identifier type="pid">egypt:172</identifier>
+   <identifier type="legacy">egypt756</identifier>
+   <identifier type="acquisition">1934.1.31.29</identifier>
+   <titleInfo supplied="yes">
+      <title>Statue of Queen Nefertari Touching Leg of Husband Rameses II, Two Nile Gods Bending sma-sign (`union`), left</title>
+   </titleInfo>
+   <abstract>Statue of Queen Nefertari touching leg of Husband Rameses II (New Kingdom - Dynasty XIX) at Luxor, East Thebes; straight plinth statue of Queen Nefertari wearing single feather crown touching her husband's leg, hieroglyphs and Queen 's cartouche (right of statue); incised image of two Nile gods bending sma-sign between them (figure on right visible) surrounded by hieroglyphs, cartouche, uraei, and papyrus; untitled print, "545" in pencil on back of print. </abstract>
+   <originInfo>
+      <dateCreated>1870-1913</dateCreated>
+      <dateCreated encoding="edtf" keyDate="yes" point="start">1870</dateCreated>
+      <dateCreated encoding="edtf" keyDate="yes" point="end">1913</dateCreated>
+   </originInfo>
+   <physicalDescription>
+      <extent>6 x 4.375 inches</extent>
+      <form authority="aat" valueURI="http://vocab.getty.edu/aat/300127121">albumen prints</form>
+      <internetMediaType>image/jpeg</internetMediaType>
+      <digitalOrigin>reformatted digital</digitalOrigin>
+   </physicalDescription>
+   <relatedItem displayLabel="Project" type="host">
+      <titleInfo>
+         <title>Nineteenth and Early Twentieth Century Images of Egypt</title>
+      </titleInfo>
+   </relatedItem>
+   <name valueURI="http://vocab.getty.edu/ulan/500436973">
+      <namePart>[Unknown]</namePart>
+      <role>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+      </role>
+   </name>
+   <subject>
+      <name authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n86057565">
+         <namePart>Nefertari, Queen, consort of Ramses II, King of Egypt</namePart>
+      </name>
+   </subject>
+   <subject>
+      <topic authority="lcsh"
+             valueURI="http://id.loc.gov/authorities/subjects/sh85133744">Temples--Egypt</topic>
+   </subject>
+   <subject>
+      <topic authority="lcsh"
+             valueURI="http://id.loc.gov/authorities/subjects/sh85041341">Inscriptions, Egyptian</topic>
+   </subject>
+   <typeOfResource>still image</typeOfResource>
+   <location>
+      <physicalLocation valueURI="http://id.loc.gov/authorities/names/no2017033007">Frank H. McClung Museum of Natural History and Culture</physicalLocation>
+   </location>
+   <recordInfo>
+      <recordContentSource valueURI="http://id.loc.gov/authorities/names/no2017033007">Frank H. McClung Museum of Natural History and Culture</recordContentSource>
+      <languageOfCataloging>
+         <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+      </languageOfCataloging>
+   </recordInfo>
+   <note displayLabel="Intermediate Provider">University of Tennessee, Knoxville. Libraries</note>
+   <note>Gift of Mr. and Mrs. Louis Bailey Audigier, McClung Museum of Natural History and Culture, The University of Tennessee. 1934.1.31.29</note>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
+   <note displayLabel="Local Rights">Permission granted for reproduction for use in research and teaching, provided proper attribution of source. Credit line should read: [description of item, including photographic number], 'Courtesy of McClung Museum of Natural History and Culture, The University of Tennessee.' For all other uses consult https://mcclungmuseum.utk.edu/research/image-services/rights-reproductions/ or call 865-974-2144.</note>
+</mods>
