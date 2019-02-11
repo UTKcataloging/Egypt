@@ -7,6 +7,7 @@ MODS metadata from the Omeka to Islandora migration (winter 2018).
 MODS metadata from the Omeka to Islandora migration (winter 2018). See ["egy"](https://github.com/UTKcataloging/egy) repository for the initial data for this project.
 ```
 |-- cleaned_data
+    |-- collection_record.xml
     |-- modsxml
     |-- remediation_files
         |-- egypt.openrefine.tar.gz
