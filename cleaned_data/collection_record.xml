@@ -50,17 +50,35 @@
         <form authority="aat" valueURI="http://vocab.getty.edu/aat/300127145">platinum prints</form>
         <extent>231 photographs</extent>
     </physicalDescription>
-    <subject>
-        <topic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh2009125211">Egypt--Antiquities--Pictorial works</topic>
-        <topic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh86003616">Egypt--Foreign relations--19th century</topic>
-        <topic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh86003625">Egypt--Foreign relations--20th century</topic>
-        <topic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85137164">Travel photography</topic>
-        <topic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85041273">Egypt--Description and travel</topic>
-        <topic authority="lcsh" valueURI="http://id.loc.gov/authorities/names/n99833387">Orientalism</topic>
-        <topic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85135940">Tombs--Egypt</topic>
-        <topic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85133744">Temples--Egypt</topic>
-        <topic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85041341">Inscriptions, Egyptian</topic>
-        <topic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh95004589">Relief (Sculpture), Egyptian</topic>
+    <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh2009125211">
+        <topic>Egypt--Antiquities--Pictorial works</topic>
+    </subject>
+    <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh86003616">
+        <topic>Egypt--Foreign relations--19th century</topic>
+    </subject>
+    <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh86003625">
+        <topic>Egypt--Foreign relations--20th century</topic>
+    </subject>
+    <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85137164">
+        <topic>Travel photography</topic>
+    </subject>
+    <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85041273">
+        <topic>Egypt--Description and travel</topic>
+    </subject>
+    <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/names/n99833387">
+        <topic>Orientalism</topic>
+    </subject>
+    <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85135940">
+        <topic>Tombs--Egypt</topic>
+    </subject>
+    <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85133744">
+        <topic>Temples--Egypt</topic>
+    </subject>
+    <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85041341">
+        <topic>Inscriptions, Egyptian</topic>
+    </subject>
+    <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh95004589">
+        <topic>Relief (Sculpture), Egyptian</topic>
     </subject>
     <subject authority="naf" valueURI="http://id.loc.gov/authorities/names/n80061791">
         <geographic>Egypt</geographic>
